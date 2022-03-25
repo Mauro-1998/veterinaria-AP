@@ -1,0 +1,51 @@
+.row{
+    display: flex;
+}
+
+.row #menu{
+    display: inline;
+    height: auto;
+    float: right;
+    margin: 0 0 0 auto;
+}
+.row .col, p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+}
+
+nav li{
+    display:inline-block;
+    padding:5px 10px;
+    text-align:center;
+}
+
+nav ul li a{
+    font-size: x-large;
+    height: auto;
+}
+
+
+.textoA{
+    text-align: center;
+    font-size: medium;
+}
+
+.contacto img{
+    padding: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+
+
+
